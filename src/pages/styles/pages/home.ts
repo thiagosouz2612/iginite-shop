@@ -1,4 +1,3 @@
-import { transform } from "next/dist/build/swc";
 import { styled } from "..";
 
 export const HomeContainer = styled('main', {
@@ -19,7 +18,7 @@ export const Product = styled('a', {
     position: 'relative',
 
     display: 'flex',
-    alignItems: 'center',
+    alignItems: 'center', 
     justifyContent: 'center',
     overflow: 'hidden',
 
