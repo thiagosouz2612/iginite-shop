@@ -7,6 +7,7 @@ export const globalStyles = globalCss({
     '*': {
         margin: 0,
         padding: 0,
+        boxSizing: 'border-box',
     },
     body: {
         backgroundColor: '$gray900',
@@ -15,7 +16,7 @@ export const globalStyles = globalCss({
         '-webkit-font-smoothing': 'antialiased',
     },
 
-    'boby, input, textarea, button, footer': {
+    'boby, input, textarea, button, footer, h1, span, p': {
         fontFamily: 'Roboto',
         fontWeight: 400,
     },
